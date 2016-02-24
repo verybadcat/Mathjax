@@ -40,7 +40,7 @@ if (!(window.MathJax && MathJax.Hub)) {
 //
 //  Get author configuration from MathJax variable, if any
 //
-if (window.MathJax) {window.MatOhJax = {AuthorConfig: window.MathJax}}
+if (window.MathJax) {window.MathJax = {AuthorConfig: window.MathJax}}
                else {window.MathJax = {}}
 
 // MathJax.isPacked = true; // This line is uncommented by the packer.
