@@ -18,7 +18,7 @@
  *
  */
 MathJax.Localization.addTranslation("en","MathMenu",{
-        version: "2.7.0",
+        version: "2.7.2",
         isLoaded: true,
         strings: {
           Show: "Show math as",
@@ -100,7 +100,11 @@ MathJax.Localization.addTranslation("en","MathMenu",{
           IE9warning: "The MathJax contextual menu will be disabled, but you can Alt-Click on an expression to obtain the MathJax menu instead.",
           NoOriginalForm: "No original form available",
           Close: "Close",
-          EqSource: "MathJax Equation Source"
+          EqSource: "MathJax Equation Source",
+          CloseAboutDialog: "Close about MathJax dialog",
+          FastPreview: "Fast Preview",
+          AssistiveMML: "Assistive MathML",
+          InTabOrder: "Include in Tab Order"
         }
 });
 

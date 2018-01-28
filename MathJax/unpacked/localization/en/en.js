@@ -19,11 +19,11 @@
  */
 MathJax.Localization.addTranslation("en",null,{
   menuTitle: "English",
-  version: "2.7.0",
+  version: "2.7.2",
   isLoaded: true,
   domains: {
     "_": {
-        version: "2.7.0",
+        version: "2.7.2",
         isLoaded: true,
         strings: {
           CookieConfig: "MathJax has found a user-configuration cookie that includes code to be run. Do you want to run it?\n\n(You should press Cancel unless you set up the cookie yourself.)",
@@ -36,7 +36,8 @@ MathJax.Localization.addTranslation("en",null,{
           Processing: "Processing",
           TypesetMath: "Typesetting math: %1%%",
           Typesetting: "Typesetting",
-          MathJaxNotSupported: "Your browser does not support MathJax"
+          MathJaxNotSupported: "Your browser does not support MathJax",
+          ErrorTips: "Debugging tips: use %%1, inspect %%2 in the browser console"
         }
     },
     "FontWarnings": {},
